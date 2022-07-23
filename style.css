@@ -96,3 +96,23 @@
     width: 200px;
 }
 
+.quote{
+    height: 400px;
+    background: rgb(224, 224, 224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p{
+ width: 600px;
+ height: auto;
+ font-style: italic;
+ font-weight: lighter;
+ font-size: 36px;
+}
+
+.quote h1{
+
+}
