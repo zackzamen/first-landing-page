@@ -98,7 +98,7 @@
 
 .quote{
     height: 400px;
-    background: rgb(224, 224, 224);
+    background: #E5E7EB;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,5 +114,41 @@
 }
 
 .quote h1{
+font-weight:bold;
+text-align: right;
+}
 
+.contact{
+    background: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin: 100px;
+border-radius: 12px;
+}
+
+.action{
+display: flex;
+flex: auto;
+
+}
+.action.text{
+  display: block;
+  color: rgb(255, 255, 255);
+  padding-top: -20px;
+  
+  }
+.action.button{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+.action.action.button button{
+  color: white;
+  font-size: 25px;
+  background: transparent;
+  border: solid white 2px;
+  border-radius: 5px;
 }
