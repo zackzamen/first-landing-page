@@ -85,6 +85,8 @@
 }
 .square.blue{
     display: flex;
+}
+.square.image.css{
 
 }
 .pictext{
@@ -93,3 +95,4 @@
     font-size: 20px;
     width: 200px;
 }
+
