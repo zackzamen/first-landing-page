@@ -1,12 +1,13 @@
 .page{
-    display: flex;
-    
+    display: block;
+
   }
   .top{
-    height: 540px;
-    width: 200px;
+
     background-color: rgb(43, 43, 70);
     flex: auto;
+    display: flex;
+    flex-direction: column;
   }
   .header{
     display: flex;
@@ -53,10 +54,39 @@
     margin: -10px;
   }
   
-  .picture{
+.picture{
     border: rgba(87, 87, 87, 0.747) solid 2px;
     height: 300px;
     width: 300px;
     background-color: rgba(192, 192, 192, 0.404);
     border-radius: 12px;
+    margin-bottom: 30px;
   }
+
+.info{
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tech.info{
+    justify-content:space-around
+}
+
+.img.tech{
+    display: flex;
+    flex: auto;
+    justify-content:center;
+}
+.square{
+    height: 200px;
+    width: 200px;
+    border-radius: 12px;
+    border: 4px solid skyblue;
+    margin: 25px;
+}
+.square.blue{
+    display: flex;
+
+}
+.pictext{
+    text-align: center;
+}
